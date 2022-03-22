@@ -1,0 +1,42 @@
+/* body{
+    background-color: aqua;
+} */
+.container{
+    background-color: white;
+    border-style: outset;
+     width: 500px;
+     height: fit-content;
+    
+     padding-bottom: 40px;
+     margin-top: 40px;
+}
+button{
+  
+  padding: 30px;
+  height: 38px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+label{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-style: calc();
+}
+input{
+  width: 400px;
+  height: 40px;
+  
+}
+h2{
+  padding-top: 15px;
+  color: green;
+}
+a{
+    margin-top: 30px;
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+   
