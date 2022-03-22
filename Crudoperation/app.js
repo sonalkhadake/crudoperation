@@ -31,6 +31,23 @@ app.get("/api/get", (req, res)=>{
         console.log(err)
     })
 })
+// delete operation
+app.delete("/api/delete/:id", (req, res) => {
+
+    const { id } = req.params;
+  
+    User.find({ _id: id }).remove().then((data) => {
+  
+        res.json({ message: "success", data: data });
+  
+      }).catch((err) => {
+  
+        console.log(err);
+  
+      });
+  
+  });
+
 
 app.listen(port, ()=>{
     console.log("your server is started at port"+port)
